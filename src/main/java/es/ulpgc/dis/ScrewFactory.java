@@ -7,6 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface Tool {
-    boolean insulation();
+public @interface ScrewFactory {
+    String material();
+    int weight();
 }
